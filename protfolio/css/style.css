@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:#3871f2; 
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+   color: #e7ebef; 
+   
+}
+.seactionA{
+   
+    padding: 10px;
+    margin-top: 6%;
+
+}
+.seactionA h1{
+    padding: 18px 0;
+   margin-left: 15%;
+   font-size: 40px;
+  
+}
+.navbar{
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+    margin-top: 25px;
+   
+}
+.navbar h3{
+    color: #e7ebef;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top:15%;
+   
+}
+.btn button{
+    color: white;
+    padding: 5px 35px;
+
+}
+
+.seactionB {
+    align-items: center;
+   
+  
+    
+}
+.seactionB img{
+    width: 300px;
+    height: 300px;
+  
+    border-radius: 50%;
+}
+.icon ul{
+    display: flex; 
+    padding:15px;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.icon ul li{
+    list-style-type: none;  
+    
+}
+.icon ul li img{
+    width:30px;
+    height: 30px;
+}
+@media(max-width:827px){
+    .container{
+        flex-direction: column;
+
+    }
+    .seactionB img{
+       margin-left: 30%;
+       margin-top: 25px;
+    }
+    .header-text{
+        text-align: center;
+        margin-bottom: 15%;
+        font-size: 30px;
+    }
+
+    .header-text h1{
+       margin-bottom: 20px;
+    }
+
+    .navbar{
+        font-size: 30px;
+
+    }
+    .btn{
+        margin-bottom: 20%;
+    }
+    .btn button{
+        padding: 20px 40px;
+        font-size: 30px;
+       
+    }
+   
+
+}
